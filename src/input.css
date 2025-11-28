@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+.my-border-shadow {
+  border-bottom: 3px solid red;
+  box-shadow: 0 2px 4px red;
+}
+.text-shadow {
+    text-shadow: 0 0 5px;
+}
+.taille{
+    font-size: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font{
+    font-family: 'Playfair Display', serif;
+}
+.plan{
+  background-image:linear-gradient(rgba(5, 5, 5, 0.541)) ,url(/arriere\ plan1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.text-shadow {
+  text-shadow: 2px 2px 6px rgb(253, 251, 251);
+}
+
+.second{
+  to{
+    opacity: 1;
+  }
+}
+.raduis{
+  object-fit: cover;
+  border: solid 1px;
+  border-radius: 100%;
+  border-style: none;
+}
